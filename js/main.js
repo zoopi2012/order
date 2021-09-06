@@ -317,7 +317,7 @@ document.getElementById('button2').onclick = () => {
 		price11=40000;
 	}
 	if (price1=="human2.5"){
-		price11=45000;
+		price11=50000;
 	}
 	if (price1=="simple"){
 		price11=10000;
@@ -379,7 +379,7 @@ document.getElementById('button2').onclick = () => {
 	honbun += "Base：人A 40,000yen"
 	}
 	if (price1=="human2.5"){
-	honbun += "Base：人B 45,000yen"
+	honbun += "Base：人B 50,000yen"
 	}
 	if (price1=="simple"){
 		honbun += "Base：シンプル 10,000yen"
@@ -490,7 +490,7 @@ if (price1=="none"){
 	honbun += "Base：人A 40,000yen"
 	}
 	if (price1=="human2.5"){
-	honbun += "Base：人B 45,000yen"
+	honbun += "Base：人B 50,000yen"
 	}
 	if (price1=="simple"){
 		honbun += "Base：シンプル 10,000yen"
@@ -571,7 +571,7 @@ if (price1=="human2"){
 	price11=40000;
 }
 if (price1=="human2.5"){
-	price11=45000;
+	price11=50000;
 }
 if (price1=="simple"){
 	price11=10000;
@@ -662,7 +662,7 @@ function keisan(){
 		price11=40000;
 	}
 	if (price1=="human2.5"){
-		price11=45000;
+		price11=50000;
 	}
 	if (price1=="simple"){
 		price11=10000;
