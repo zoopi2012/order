@@ -446,6 +446,18 @@ document.getElementById('button2').onclick = () => {
 	var total = price11 + price12 + price13 + price14 + price15 + price16;
 honbun += "Total " + total + "yen" 
 
+honbun += "\n"
+honbun += "\n"
+honbun += "イメージデータ添付をしてください。"
+honbun += "\n"
+honbun += " __________________________"
+honbun += "\n"
+honbun += "\n"
+honbun += "お名前:"
+honbun += "\n"
+honbun += "コメント:"
+
+
 	navigator.clipboard.writeText(honbun).then(e => {
     alert('コピーできました');
   });	
@@ -626,7 +638,7 @@ price16=0;
 	honbun += "%0D%0A" + "Total " + total + "yen" 
 
 
-	document.location = "mailto:k.zoopi2012@gmail.com?subject=zoopiオーダーぬいぐるみ かんたんお見積り&body=" +   honbun + " %0D%0A%0D%0Aデータ添付をしてください"
+	document.location = "mailto:k.zoopi2012@gmail.com?subject=zoopiオーダーぬいぐるみ かんたんお見積り&body=" +   honbun + " %0D%0A%0D%0Aイメージデータ添付をしてください%0D%0A__________________________%0D%0A%0D%0Aお名前:%0D%0Aコメント:"
 }
 
 function keisan(){

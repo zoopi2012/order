@@ -19,19 +19,23 @@ body {
   background: linear-gradient(to bottom, rgba(255, 246, 244, 1),rgba(0, 0, 0, 0)); */
   background-color: #fff6f4 ;
   color: rgb(109, 109, 109);
-
   position: fixed;
   z-index: 1;
+  
   width: 100%;
   padding-top: 100px;
 }
+
+
+
+
 
 .back{
   margin: 0;
   padding: 10px 30px 20px 30px;
   background-color: #fff6f4;
   color: rgb(109, 109, 109);
-  padding-top: 423px;
+  padding-top: 330px;
 }
 .yonde{
   margin: 0 auto;
@@ -407,6 +411,11 @@ button[type="button"][disabled]{
 
 }
 
+.mail button{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  padding: 0px 0px;
+}
+
 
 
 
@@ -471,5 +480,7 @@ button[type="button"][disabled]{
       z-index: 1;
       width: 100%;
       padding-top: 130px;
+      
+      
     }
   }
