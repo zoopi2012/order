@@ -12,11 +12,11 @@ function changebox(){
 	var SNSBox = document.getElementById('SNS');
 	//mail非表示
 	var doui = document.getElementById('doui');
-//copy非表示
+	//copy非表示
 	var button2 = document.getElementById('button2');
 
 	// var BaseElement        = document.getElementById('Type'),
-  //   resetButtonElement = document.getElementById('resetButton');
+	//   resetButtonElement = document.getElementById('resetButton');
 
 	//Baseの選択内容によって処理を分岐
 	if (baseState=="none"){
@@ -37,6 +37,11 @@ function changebox(){
 	// 	resetButtonElement.onclick = function() {
 	// 		BaseElement.reset();
 	// };
+		//選択内容のリセット
+		typeBox.value = "simple";
+		sizeBox.value = "kihon";
+		customizeBox.value = "hontai";
+		optionBox.value = "nashi";
 	}
 	if (baseState=="animal"){
 		//Typeはシンプルと複雑
@@ -111,6 +116,10 @@ function changebox(){
 			optionOptDacyaku.text = "小物脱着可 要相談"
 			optionBox.add(optionOptDacyaku, null)
 		}
+
+		//選択内容のリセット
+		typeBox.value = "simple";
+		customizeBox.value = "hontai";
 	}
 	if (baseState=="human2"){
 		//Typeはボックス自体を非表示
@@ -171,6 +180,10 @@ function changebox(){
 			optionOptDacyaku.text = "小物脱着可 要相談"
 			optionBox.add(optionOptDacyaku, null)
 		}
+
+		//選択内容のリセット
+		typeBox.value = "simple";
+		customizeBox.value = "hontai";
 	}
 	if (baseState=="human2.5"){
 		//Typeはボックス自体を非表示
@@ -226,6 +239,10 @@ function changebox(){
 			optionOptDacyaku.text = "小物脱着可 要相談"
 			optionBox.add(optionOptDacyaku, null)
 		}
+
+		//選択内容のリセット
+		typeBox.value = "simple";
+		customizeBox.value = "hontai";
 	}
 	if (baseState=="simple"){
 		//Typeはボックス自体を非表示
@@ -264,6 +281,10 @@ function changebox(){
 			optionOptDacyaku.text = "小物脱着可 要相談"
 			optionBox.add(optionOptDacyaku, null)
 		}
+
+		//選択内容のリセット
+		typeBox.value = "simple";
+		customizeBox.value = "hontai";
 	}
 }
 
