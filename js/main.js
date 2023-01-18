@@ -394,7 +394,7 @@ document.getElementById('button2').onclick = () => {
 	honbun += "Base：注文できません選択してください"
 	}
 	if (price1=="animal"){
-	 honbun += "Base：動物 30,000yen"
+	 honbun += "Base：動物 35,000yen"
 	}
 	if (price1=="human2"){
 	honbun += "Base：人A 40,000yen"
@@ -403,7 +403,7 @@ document.getElementById('button2').onclick = () => {
 	honbun += "Base：人B 50,000yen"
 	}
 	if (price1=="simple"){
-		honbun += "Base：シンプル 10,000yen"
+		honbun += "Base：シンプル 20,000yen"
 	}
 	honbun += "\n"
 
