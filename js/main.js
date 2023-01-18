@@ -332,7 +332,7 @@ document.getElementById('button2').onclick = () => {
 		price11=0;
 	}
 	if (price1=="animal"){
-		price11=30000;
+		price11=35000;
 	}
 	if (price1=="human2"){
 		price11=40000;
@@ -341,7 +341,7 @@ document.getElementById('button2').onclick = () => {
 		price11=50000;
 	}
 	if (price1=="simple"){
-		price11=10000;
+		price11=20000;
 	}
 	if (price2=="simple"){
 		price12=0;
@@ -517,7 +517,7 @@ if (price1=="none"){
 	honbun += " Base：注文できません選択してください"
 	}
 	if (price1=="animal"){
-	 honbun += "Base：動物 30,000yen"
+	 honbun += "Base：動物 35,000yen"
 	}
 	if (price1=="human2"){
 	honbun += "Base：人A 40,000yen"
@@ -526,7 +526,7 @@ if (price1=="none"){
 	honbun += "Base：人B 50,000yen"
 	}
 	if (price1=="simple"){
-		honbun += "Base：シンプル 10,000yen"
+		honbun += "Base：シンプル 20,000yen"
 	}
 	if (price2=="simple"){
 		honbun += "%0D%0AType：シンプル 0yen"
@@ -598,7 +598,7 @@ if (price1=="none"){
 	price11=0;
 }
 if (price1=="animal"){
-	price11=30000;
+	price11=35000;
 }
 if (price1=="human2"){
 	price11=40000;
@@ -607,7 +607,7 @@ if (price1=="human2.5"){
 	price11=50000;
 }
 if (price1=="simple"){
-	price11=10000;
+	price11=20000;
 }
 if (price2=="simple"){
 	price12=0;
@@ -689,7 +689,7 @@ function keisan(){
 		price11=0;
 	}
 	if (price1=="animal"){
-		price11=30000;
+		price11=35000;
 	}
 	if (price1=="human2"){
 		price11=40000;
@@ -698,7 +698,7 @@ function keisan(){
 		price11=50000;
 	}
 	if (price1=="simple"){
-		price11=10000;
+		price11=20000;
 	}
 	if (price2=="simple"){
 		price12=0;
